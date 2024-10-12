@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:hint="@string/enter_key"
+        android:padding="20dp"
+        android:inputType="text"
+        android:autofillHints="username" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberPicker"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="method1"
+        android:padding="20dp"
+        android:text="@string/submit_button" />
+
+    <EditText
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSubmit"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:hint="@string/generated_password" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAlphanumeric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:text="Enable alphanumeric password" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDecryption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxAlphanumeric"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Decryption mode"
+        android:padding="16dp" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_alignStart="@+id/checkBoxAlphanumeric"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="75dp"
+        android:contentDescription="@string/password_length" />
+
+</RelativeLayout>

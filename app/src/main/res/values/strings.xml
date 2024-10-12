@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KeyCrypt</string>
+    <string name="enter_key">Enter key</string>
+    <string name="enter_pattern">Enter pattern</string>
+    <string name="submit_button">Submit</string>
+    <string name="generated_password">Generated password</string>
+    <string name="alphanumeric">Enable alphanumeric password</string>
+    <string name="password_length">Select password length</string>
+
+
+
+</resources>

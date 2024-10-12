@@ -44,9 +44,7 @@ This demo showcases the password generation process, where users provide a key, 
 - **Reverse Shifts**: It then applies reverse shifts to recover the original key from the encrypted password.
 
 ### **Combinatorial Complexity**:
-Using the alphanumeric character set, a password of 10 characters generates:
-
-**62¹⁰ = 839,299,365,868,340,224** unique combinations
+Using the alphanumeric character set, a password of 10 characters generates 62¹⁰ combinations.
 
 This ensures a vast number of unique password combinations, making them secure against brute-force attacks.
 

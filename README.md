@@ -78,7 +78,7 @@ KeyCrypt/
 ## **Requirements**
 
 ### **For Regular Users**:
-- You can download the APK from the [release](release/keycrypt-v1.0.apk) folder or directly using [this link](https://github.com/Glooring/keycrypt-android/raw/refs/heads/main/release/keycrypt-v1.0.apk) and install it on your Android device.
+- No requirements needed
 
 ### **For Developers**:
 To build the project from source, you will need:
@@ -90,8 +90,8 @@ To build the project from source, you will need:
 
 ## **Installation and Setup**
 
-### **For Regular Users**:
-1. Download the APK from the **release** folder: [keycrypt-v1.0.apk](release/keycrypt-v1.0.apk)
+### **For All Users**:
+1. Download the APK from the [release](release/keycrypt-v1.0.apk) folder or directly using [this link](https://github.com/Glooring/keycrypt-android/raw/refs/heads/main/release/keycrypt-v1.0.apk) and install it on your Android device.
 2. Install the APK on your Android device.
 3. Open the app and start generating passwords or decrypting keys.
 

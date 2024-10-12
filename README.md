@@ -26,7 +26,7 @@ The app consists of two core modes:
 
 Here’s a quick demonstration of the **KeyCrypt** app in action:
 
-<img src="media/keycrypt_demo.gif" width="240">
+<img src="media/keycrypt_demo.mp4" width="240">
 
 This demo showcases the password generation process, where users provide a key, choose the desired password length, and select the character set before generating a secure password. It also demonstrates the clipboard management feature for easy copying and the decryption process for recovering the original key.
 

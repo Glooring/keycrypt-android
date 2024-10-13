@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="darkNavigationBarColor">#FF000000</color> <!-- Example: Pure black -->
+    <color name="app_background">#FF2A2A2A</color> <!-- This is your desired background color -->
+
 </resources>

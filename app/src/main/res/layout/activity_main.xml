@@ -27,7 +27,7 @@
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="1dp"
         android:onClick="method1"
         android:padding="20dp"
@@ -44,37 +44,46 @@
         android:textSize="20sp"
         android:hint="@string/generated_password" />
 
-    <CheckBox
-        android:id="@+id/checkBoxAlphanumeric"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/et1"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
-        android:padding="16dp"
-        android:text="Enable alphanumeric password" />
 
-    <CheckBox
-        android:id="@+id/checkBoxDecryption"
+    <LinearLayout
+        android:id="@+id/checkbox_group"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/checkBoxAlphanumeric"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:text="Decryption mode"
-        android:padding="16dp" />
+        android:layout_height="168dp"
+        android:layout_above="@+id/btnSubmit"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxAlphanumeric"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="Alphanumeric password" />
+
+        <CheckBox
+            android:id="@+id/checkBoxDecryption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="Decryption mode" />
+    </LinearLayout>
 
     <NumberPicker
         android:id="@+id/numberPicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="55dp"
+        android:layout_height="144dp"
         android:layout_below="@+id/et1"
-        android:layout_alignStart="@+id/checkBoxAlphanumeric"
         android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="275dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="59dp"
+        android:layout_toEndOf="@+id/checkbox_group"
         android:contentDescription="@string/password_length" />
 
 </RelativeLayout>

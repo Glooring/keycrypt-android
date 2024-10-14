@@ -64,6 +64,7 @@ KeyCrypt/
 ├── media/                              # Contains media assets such as GIFs or images (e.g., demonstration GIF) 
 ├── release/
 │   └── keycrypt-v1.0.apk               # Compiled APK for Android devices (ready for distribution)
+├── LICENSE                             # License information for the project
 ├── README.md                           # Project documentation (this file)
 ├── build.gradle                        # Main Gradle build configuration for the project
 ├── gradle.properties                   # Properties for Gradle build system

@@ -50,6 +50,36 @@ This ensures a vast number of unique password combinations, making them secure a
 
 ---
 
+## **Requirements**
+
+### **For Regular Users**:
+- No requirements needed
+
+### **For Developers**:
+To build the project from source, you will need:
+- **Android Studio**: Download it from [here](https://developer.android.com/studio).
+- **Java Development Kit (JDK)** 8 or higher.
+- **Android SDK**: Included with Android Studio.
+
+---
+
+## **Installation and Setup**
+
+### **For All Users**:
+1. Download the APK from the [releases page](https://github.com/Glooring/keycrypt-android/releases) or directly using [this link](https://github.com/Glooring/keycrypt-android/releases/download/v1.0.0/keycrypt-v1.0.0-release.zip).
+2. Install the APK on your Android device.
+3. Open the app and start generating passwords or decrypting keys.
+---
+### **For Developers**:
+1. Clone the repository into a folder named `KeyCrypt`:
+   ```bash
+   git clone https://github.com/Glooring/keycrypt-android.git KeyCrypt
+   ```
+2. Open the project in **Android Studio**.
+3. Sync the project with Gradle by clicking **File > Sync Project with Gradle Files**.
+4. Build and run the app on an Android emulator or physical device.
+
+
 ## **Project Structure**
 
 The project has been organized as follows:
@@ -73,37 +103,6 @@ KeyCrypt/
 ├── local.properties                    # Local environment-specific settings (e.g., SDK path)
 └── settings.gradle                     # Settings for the overall Gradle build configuration
 ```
-
----
-
-## **Requirements**
-
-### **For Regular Users**:
-- No requirements needed
-
-### **For Developers**:
-To build the project from source, you will need:
-- **Android Studio**: Download it from [here](https://developer.android.com/studio).
-- **Java Development Kit (JDK)** 8 or higher.
-- **Android SDK**: Included with Android Studio.
-
----
-
-## **Installation and Setup**
-
-### **For All Users**:
-1. Download the APK from the [releases page](https://github.com/Glooring/keycrypt-android/releases) or directly using [this link](https://github.com/Glooring/keycrypt-android/releases/download/v1.0.0/keycrypt-v1.0.0-release.apk).
-2. Install the APK on your Android device.
-3. Open the app and start generating passwords or decrypting keys.
----
-### **For Developers**:
-1. Clone the repository into a folder named `KeyCrypt`:
-   ```bash
-   git clone https://github.com/Glooring/keycrypt-android.git KeyCrypt
-   ```
-2. Open the project in **Android Studio**.
-3. Sync the project with Gradle by clicking **File > Sync Project with Gradle Files**.
-4. Build and run the app on an Android emulator or physical device.
 
 ---
 
